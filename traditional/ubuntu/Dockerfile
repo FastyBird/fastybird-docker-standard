@@ -44,16 +44,12 @@ RUN apt-get update && apt-get install -y \
     php${PHP_VERSION}-gmp \
     php${PHP_VERSION}-intl \
     php${PHP_VERSION}-mbstring \
-    php${PHP_VERSION}-mysqli \
+    php${PHP_VERSION}-mysql \
     php${PHP_VERSION}-mysqlnd \
     php${PHP_VERSION}-opcache \
-    php${PHP_VERSION}-pcntl \
     php${PHP_VERSION}-pdo \
-    php${PHP_VERSION}-pdo_mysql \
-    php${PHP_VERSION}-pdo_pgsql \
     php${PHP_VERSION}-pgsql \
     php${PHP_VERSION}-phar \
-    php${PHP_VERSION}-session \
     php${PHP_VERSION}-simplexml \
     php${PHP_VERSION}-sockets \
     php${PHP_VERSION}-sqlite3 \

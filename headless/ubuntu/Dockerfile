@@ -30,27 +30,28 @@ RUN apt-get update && apt-get install -y \
     php${PHP_VERSION}-calendar \
     php${PHP_VERSION}-common \
     php${PHP_VERSION}-cli \
-    php${PHP_VERSION}-common \
     php${PHP_VERSION}-ctype \
     php${PHP_VERSION}-curl \
     php${PHP_VERSION}-dom \
     php${PHP_VERSION}-exif \
+    php${PHP_VERSION}-fileinfo \
     php${PHP_VERSION}-fpm \
     php${PHP_VERSION}-gd \
     php${PHP_VERSION}-gmp \
     php${PHP_VERSION}-intl \
     php${PHP_VERSION}-mbstring \
     php${PHP_VERSION}-mysql \
+    php${PHP_VERSION}-mysqlnd \
     php${PHP_VERSION}-opcache \
-    php${PHP_VERSION}-pcntl \
     php${PHP_VERSION}-pdo \
-    php${PHP_VERSION}-pdo_mysql \
-    php${PHP_VERSION}-pdo_pgsql \
     php${PHP_VERSION}-pgsql \
     php${PHP_VERSION}-phar \
+    php${PHP_VERSION}-simplexml \
     php${PHP_VERSION}-sockets \
-    php${PHP_VERSION}-sqlite \
+    php${PHP_VERSION}-sqlite3 \
+    php${PHP_VERSION}-tokenizer \
     php${PHP_VERSION}-xml \
+    php${PHP_VERSION}-xmlwriter \
     php${PHP_VERSION}-xsl \
     php${PHP_VERSION}-yaml \
     php${PHP_VERSION}-zip
