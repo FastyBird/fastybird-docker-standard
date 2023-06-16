@@ -3,7 +3,7 @@ FROM composer:2.4 AS composer
 
 FROM alpine:3.17
 
-ARG PHP_VERSION=8.1
+ARG PHP_VERSION=8.2
 
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 
