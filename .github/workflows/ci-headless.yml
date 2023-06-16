@@ -5,11 +5,13 @@ on:
     branches-ignore:
       - "main"
     paths:
+      - "feature/**"
       - "headless/**"
       - ".github/**"
 
   pull_request:
     paths:
+      - "feature/**"
       - "headless/**"
       - ".github/**"
 
